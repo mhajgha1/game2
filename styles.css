@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.matrix {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.matrix-row {
+    display: flex;
+}
+
+.matrix-cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    padding: 5px 10px;
+}
